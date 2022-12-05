@@ -8,7 +8,71 @@
     <title>Awesome Books II ES6</title>
 </head>
 <body>
-  
+  <header>
+    <nav>
+      <h1 class="header-text">Awesome Book</h1>
+      <ul class="nav-list">
+        <li class="nav-link list"><a href="#" id="list-link">List</a></li>
+        <li class="nav-link add-new"><a href="#" id="new-link">Add New</a></li>
+        <li class="nav-link ccontact"><a href="#" id="contact-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="date-and-time">
+    <p id="current-date-time">position for date & time!</p>
+  </div>
+
+  <main class="container">
+    <section id="display-books">
+      <h3 class="header">All awesome books</h3>
+
+      <div id="bookshelf"></div>
+    </section>
+    <br />
+
+    <section id="form-input">
+      <h3 class="header">Add a new book</h3>
+      <div>
+        <form id="form">
+          <input
+            type="text"
+            id="title"
+            name="title"
+            placeholder="Title"
+            required=""
+          />
+          <br />
+          <input
+            type="text"
+            id="author"
+            name="author"
+            placeholder="Author"
+            required=""
+          />
+          <br />
+          <button id="addBtn" type="submit">Add book</button>
+        </form>
+      </div>
+    </section>
+   
+    <section id="our-contact">
+      <h3 class="contact-header">Contact Information</h3>
+      <div class="contact-details">
+        <p>
+          Do you have any question or you just want to say "Hello"?<br />You
+          can reach out to us!
+        </p>
+        <ul>
+          <li>Our email: agulugard@gmail.com</li>
+          <li>Our Phone number: +2548035184236</li>
+          <li>Our Address: Plot 60 Fidelity Drive, Enugwu, Biafra.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <i>&copy; 2022 Awesome Book. Developed by Lugard</i>
+  </footer>
   <script src="index.js" type="module"></script>
 </body>
 </html>
